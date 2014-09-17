@@ -1,0 +1,3 @@
+#!/bin/bash
+exec 2>&1
+USER=root exec apache2ctl -f /etc/apache2/apache2.conf
